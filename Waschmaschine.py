@@ -73,7 +73,7 @@ class device_handler(debounce_handler):
 
 
 
-        if name=="Feinwäsche 40 Grad 90 trocknen":
+        elif name=="Feinwäsche 40 Grad 90 trocknen":
     
             GPIO.setmode(GPIO.BOARD)
 
@@ -166,7 +166,7 @@ class device_handler(debounce_handler):
             GPIO.output(int(15), 0)
 
 
-         if name == "Feinwäsche 40 Grad 150 trocknen":
+        elif name == "Feinwäsche 40 Grad 150 trocknen":
             GPIO.setmode(GPIO.BOARD)
 
             #washing machine on/off
@@ -217,7 +217,7 @@ class device_handler(debounce_handler):
             time.sleep(0.2)
             GPIO.output(int(15), 0)      
 
-        if name == "Feinwäsche 40 Grad 180 trocknen":
+        elif name == "Feinwäsche 40 Grad 180 trocknen":
             
             GPIO.setmode(GPIO.BOARD)
 
@@ -273,7 +273,7 @@ class device_handler(debounce_handler):
             time.sleep(0.2)
             GPIO.output(int(15), 0)
 
-        if name == "40 trocknen":
+        elif name == "40 trocknen":
             GPIO.setmode(GPIO.BOARD)
             
             #washing machine on/off
@@ -305,7 +305,7 @@ class device_handler(debounce_handler):
             time.sleep(0.2)
             GPIO.output(int(15), 0)
 
-        if name == "90 trocknen":
+        elif name == "90 trocknen":
             GPIO.setmode(GPIO.BOARD)
             
             #washing machine on/off
@@ -341,7 +341,7 @@ class device_handler(debounce_handler):
             time.sleep(0.2)
             GPIO.output(int(15), 0)
 
-        if name == "120 trocknen":
+        elif name == "120 trocknen":
             GPIO.setmode(GPIO.BOARD)
             
             #washing machine on/off
@@ -381,7 +381,7 @@ class device_handler(debounce_handler):
             time.sleep(0.2)
             GPIO.output(int(15), 0)
            
-        if name == "150 trocknen":
+        elif name == "150 trocknen":
             GPIO.setmode(GPIO.BOARD)
             
             #washing machine on/off
@@ -425,7 +425,7 @@ class device_handler(debounce_handler):
             time.sleep(0.2)
             GPIO.output(int(15), 0)
 
-        if name == "180 trocknen":
+        elif name == "180 trocknen":
             GPIO.setmode(GPIO.BOARD)
             
             #washing machine on/off
